@@ -1,0 +1,1 @@
+web: gunicorn smt_capstone.wsgi
