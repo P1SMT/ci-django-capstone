@@ -2,3 +2,6 @@ File included to document that have been able to reset Gitpod files to previous 
 and add django app again this time with name in lowercase and see if that solves issue that arose.
 In doing the above I used the 'git push --force' command and found that that erased all commit history of problem that previously occured when 
 using django create app functionality
+
+Success - been able to create an app named 'weather' in this django project, out of sequence of instructions given by Code Institute, that operation
+failed the first time, which currently can only attribute to having used ALL CAPS as the name format of the app first time around
