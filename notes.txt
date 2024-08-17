@@ -1,0 +1,4 @@
+File included to document that have been able to reset Gitpod files to previous commit of 5b32f55dabcac306c99843863860e93ec7272fcb, then intend to try
+and add django app again this time with name in lowercase and see if that solves issue that arose.
+In doing the above I used the 'git push --force' command and found that that erased all commit history of problem that previously occured when 
+using django create app functionality
