@@ -7,3 +7,7 @@ Success - been able to create an app named 'weather' in this django project, out
 failed the first time, which currently can only attribute to having used ALL CAPS as the name format of the app first time around
 
 creation of django superuser - details saved on iphone
+
+NB: I googled how to reset the head of main branch to an eariler commit whilst still maintaining all the history in the github repository "git push --force origin main"
+was given as the command that would do that. It didn't. It earased 11 commits from the main branch history. It has return me to the point in code I wished to be
+but any evidence of several days work (that did not prove fruitful) has now been erased.
