@@ -139,5 +139,5 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 MEDIA_URL = '/media/'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# LOGIN_REDIRECT_URL = 'index' - commented out until index page created, as caused error to defalult login & logut pages
-# LOGOUT_REDIRECT_URL = 'index' - commented out until index page created, as caused error to defalult login & logut pages
+LOGIN_REDIRECT_URL = 'index' 
+LOGOUT_REDIRECT_URL = 'index' 
