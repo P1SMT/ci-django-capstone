@@ -133,3 +133,11 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Additional Code
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+MEDIA_URL = '/media/'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+# LOGIN_REDIRECT_URL = 'index' - commented out until index page created, as caused error to defalult login & logut pages
+# LOGOUT_REDIRECT_URL = 'index' - commented out until index page created, as caused error to defalult login & logut pages
